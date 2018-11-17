@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Trivia Game</title>
+
+		
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+
+		<!-- Start of the game -->
+		<div id = start_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo"> Food Trivia</h1>
+
+			<button id = start_button>Start</button>
+		</div>
+
+
+		<!-- During Gameplay Container -->
+		<div id = mid_game_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Food Trivia</h1>
+
+			<!-- Game Timer -->
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">60 Seconds</span></h1>
+
+			<!-- Game Questions -->
+
+		<h1>1. Which of the following vegetables is not one of the ingredients of V-8 juice?</h1>
+		
+				<input type="radio" name="q1" value="A">A.beet
+				<input type="radio" name="q1" value="B">B.carrot 
+				<input type="radio" name="q1" value="C">C.spinach 
+				<input type="radio" name="q1" value="D">D.cabbage 
+				
+
+			<h1>2.What is the main ingredient in vichyssoise?</h1>
+			
+				<input type="radio" name="q2" value="A">A.lima beans
+				<input type="radio" name="q2" value="B">B.clams
+				<input type="radio" name="q2" value="C">C.tomatoes 
+				<input type="radio" name="q2" value="D">D.potatoes 
+
+
+
+			<h1>3. What country produces the most potatoes ?</h1>
+			
+				<input type="radio" name="q3" value="A">A.China
+				<input type="radio" name="q3" value="B">B.United States 
+				<input type="radio" name="q3" value="C">C.Ireland 
+				<input type="radio" name="q3" value="D">D.Russia
+
+
+			<h1>4. What soft-drink company introduced the brand Slice?</h1>
+			
+				<input type="radio" name="q4" value=" A">A.Dr.Pepper 
+				<input type="radio" name="q4" value=" B">B.Coca Cola 
+				<input type="radio" name="q4" value=" C">C.Seven Up
+				<input type="radio" name="q4" value="D">D.Pepsico
+			
+
+
+			<h1>5. According to a 1980s Beverage Media poll of four hundred bartenders, what is the average male customers favorite drink? </h1>
+		
+				<input type="radio" name="q5" value="A">A.beer 
+				<input type="radio" name="q5" value="B">B.bourbon 
+				<input type="radio" name="q5" value="C">C.scotch 
+				<input type="radio" name="q5" value="D">D.vodka
+				
+			
+			<h1>6. According to a 1980s Beverage Media poll of four hundred bartenders, what was the female customers favorite drink? </h1>
+		
+				<input type="radio" name="q6" value="A">A.beer 
+				<input type="radio" name="q6" value="B">B.margarita 
+				<input type="radio" name="q6" value="C">C.peach schnapps and orange juice 
+				<input type="radio" name="q6" value="D">D.white wine 
+				
+
+			<h1>7.Simplesse is NutraSweet's fat substitute. What is it made of ?</h1>
+			
+				<input type="radio" name="q7" value="A">A. a blend of proteins from egg white and milk k 
+				<input type="radio" name="q7" value="B">B. fat molecules altered to be too large to digest 
+				<input type="radio" name="q7" value="C">C. molecules that are the mirror-image of normal fat molecules 
+				
+			<h1>8. hich grade of olive oil is considered the best?</h1>
+		
+				<input type="radio" name="q8" value="A">A. extra virgin 
+				<input type="radio" name="q8" value="B">B. pure virgin 
+				<input type="radio" name="q8" value="C">C. superfine virgine 
+				 
+
+
+				<br>
+
+
+			<button id = done_button>Done!</button>
+
+		</div>
+
+
+
+
+		<!-- End of the game -->
+		<div id = end_container>
+			<!-- Static Game Logo -->
+			<h1 class = "logo">Food Trivia</h1>
+
+			<h1 id = "done">All Done!</h1>
+			<br>
+
+			<h1>Correct Answers: <span id = "correct_answers">0</span></h1>
+			<h1>Incorrect Answers: <span id = wrong_answers>0</span></h1>
+			<h1>Unanswered: <span id = "unanswered">0</span></h1>
+		</div>
+			
+
+
+
+		<!-- Link in jQuery -->
+					<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+
+		<!-- Link in JavaScript -->
+		<script src="assets/javascript/app.js"></script>
+		
+	</body>
+</html>
